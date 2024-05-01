@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <title>Orlando</title>
+</head>
+
+<body>
+    <header>
+        <h1>Viaje a Orlando</h1>
+
+    </header>
+    <nav id="nav-bar">
+        <ul>
+            <li><a class="nav-a" href="index.html#inicio">Inicio</a></li>
+            <li><a class="nav-a" href="index.html#parques">Parques</a></li>
+            <li><a class="nav-a" href="index.html#transporte">Transporte</a></li>
+            <li><a class="nav-a" href="index.html#clima">Clima</a></li>
+            <li><a class="nav-a" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section id="inicio" class="tarjeta color1">
+            <h3>¿Estas pensando en viajar a Orlando?</h3>
+
+            <p>En esta pagina encontraras informacion de la ciudad de Orlando, sus parques, transporte y clima. Para que
+                seas completamente un experto a la hora de viajar</p>
+
+            <img class="imagen-referencia" src="../img/87.jpg" alt="Imagen de Orlando">
+        </section>
+
+        <section id="parques" class="tarjeta color2">
+            <h3>Parques en la ciudad de orlando</h3>
+            <p>La ciudad de orlando cuenta con diversos parques tematicos</p>
+            <img class="imagen-referencia" src="../img/parques.avif" alt="Imagen parques">
+            <ul id="lista-parques"></ul>
+        </section>
+
+        <style>
+
+        </style>
+
+        <section id="clima" class="tarjeta color1">
+            <h3>Clima en Orlando</h3>
+            <p>El clima en Orlando varía según la temporada y puede influir en tu experiencia de viaje. Aquí te
+                proporcionamos
+                información útil para que puedas planificar tu visita:</p>
+
+            <table class="tabla-clima">
+                <tr>
+                    <td><strong>Verano:</strong> Orlando experimenta veranos cálidos y húmedos, con temperaturas que
+                        suelen rondar
+                        los 30-35°C. Es importante vestir ropa ligera y llevar protección solar.</td>
+                </tr>
+                <tr>
+                    <td><strong>Invierno:</strong> Los inviernos en Orlando son suaves y agradables, con temperaturas
+                        diurnas que
+                        oscilan entre los 15-25°C. Se recomienda llevar una chaqueta ligera por la noche.</td>
+                </tr>
+                <tr>
+                    <td><strong>Otoño y primavera:</strong> Estas temporadas ofrecen un clima más moderado y menos
+                        lluvioso. Las
+                        temperaturas son generalmente cómodas, ideales para disfrutar de actividades al aire libre.</td>
+                </tr>
+                <tr>
+                    <td><strong>Tormentas y huracanes:</strong> Orlando está ubicado en una región propensa a las
+                        tormentas y
+                        huracanes durante la temporada de huracanes, que va de junio a noviembre. Es importante estar
+                        atento a los
+                        pronósticos del tiempo y seguir las recomendaciones de seguridad.</td>
+                </tr>
+            </table>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+
+                }
+
+                /* Estilos para las celdas */
+                table td {
+                    padding: 10px;
+                    border: 1px solid #ddd;
+                }
+
+                /* Estilos para las celdas de la primera columna */
+                table td:first-child {
+                    font-weight: bold;
+                    width: 25%;
+                }
+
+                /* Estilos para resaltar el texto en negrita */
+                table strong {
+                    font-weight: bold;
+                }
+            </style>
+        </section>
+
+
+        <section id="transporte" class="tarjeta color2">
+            <h3>Transporte en Orlando</h3>
+            <p>A continuación se muestra una lista de opciones de transporte en Orlando junto con sus tarifas:</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Transporte</th>
+                        <th>Tarifa</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-transporte">
+                    <!-- Las filas de la tabla se generarán dinámicamente aquí -->
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
