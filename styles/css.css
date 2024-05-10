@@ -1,0 +1,22 @@
+/* Estilos para la tabla */
+.tabla-clima {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos para las celdas */
+.tabla-clima td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para las celdas de la primera columna */
+.tabla-clima td:first-child {
+    font-weight: bold;
+    width: 25%;
+}
+
+/* Estilos para resaltar el texto en negrita */
+.tabla-clima strong {
+    font-weight: bold;
+}

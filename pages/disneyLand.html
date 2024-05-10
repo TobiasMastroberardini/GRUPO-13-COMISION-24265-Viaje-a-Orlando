@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<title>Orlando</title>
+</head>
+
+<body>
+    <header>
+        <h1>Viaje a Orlando</h1>
+
+    </header>
+    <nav id="nav-bar">
+        <button id="menu-toggle">Abrir menu</button>
+        <ul id="nav-ul" class="hidden">
+            <li><a class="nav-a" href="index.html#inicio">Inicio</a></li>
+            <li><a class="nav-a" href="index.html#parques">Parques</a></li>
+            <li><a class="nav-a" href="index.html#clima">Clima</a></li>
+            <li><a class="nav-a" href="index.html#transporte">Transporte</a></li>
+            <li><a class="nav-a" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main id="main-parques">
+        <section>
+            <h2>DisneyLand</h2>
+            <p>Bienvenido al mágico mundo de Disneyland, donde los sueños se hacen realidad y la diversión nunca
+                termina. Desde su
+                apertura en 1955, Disneyland ha sido un destino emblemático para familias, amigos y amantes de la
+                aventura de todas las
+                edades.
+
+                Ubicado en Anaheim, California, Disneyland es mucho más que un parque temático: es un lugar donde la
+                imaginación cobra
+                vida. Con sus icónicos castillos, emocionantes atracciones y personajes queridos de Disney, cada rincón
+                de Disneyland
+                está lleno de magia y maravilla.
+
+                Dé un paseo por Main Street, U.S.A., donde el encanto del viejo mundo se encuentra con la emoción del
+                futuro. Explore
+                las tierras temáticas, desde la aventura de Frontierland hasta la fantasía de Fantasyland, y descubra
+                emocionantes
+                atracciones como Space Mountain, Pirates of the Caribbean y Splash Mountain.
+
+                No importa si eres un fanático de Disney de toda la vida o estás experimentando la magia por primera
+                vez, Disneyland te
+                espera con los brazos abiertos para crear recuerdos inolvidables que durarán toda la vida. ¡Prepárate
+                para sumergirte en
+                un mundo de fantasía y diversión en Disneyland!</p>
+            <img class="imagen-cuerpo" src="../img/disneyland.jpg" alt="img disneyLand">
+
+        </section>
+        <section>
+            <div class="div-precios">
+                <h3>Lista de precios de entradas</h3>
+                <table id="tabla-precios">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Las filas de precios se generarán dinámicamente aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="div-atracciones">
+                <h3>Atracciones del parque</h3>
+                <table class="table-responsive{-sm|-md|-lg|-xl}" id="tabla-atracciones">
+                    <tr>
+                        <th>Nombre</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer id="footer-parques">
+        <nav>
+            <ul id="ul-footer">
+                <li class="li-footer"><a href="disneyAnimalKingdom.html">Disney Animal Kingdom</a></li>
+                <li class="li-footer"><a href="disneyLand.html">Disney Land</a></li>
+                <li class="li-footer"><a href="magicKingdom.html">Magic Kingdom</a></li>
+                <li class="li-footer"><a href="epcot.html">Ecopt</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
