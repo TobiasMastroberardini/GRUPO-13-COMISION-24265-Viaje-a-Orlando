@@ -119,7 +119,7 @@ if (paginaActual.includes('/index.html')) {
         parquesDisney.forEach(function (parque) {
             const itemLista = document.createElement("li");
             itemLista.innerHTML = `
-        <a href="./pages/${parque.url}"
+        <a href="pages/${parque.url}"
             <strong>${parque.nombre}</strong></a> - Ubicación: ${parque.ubicacion}<br>
             Año de Apertura: ${parque.añoApertura}<br>
             Atracciones Destacadas: ${parque.atraccionesDestacadas.join(", ")}
