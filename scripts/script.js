@@ -1,9 +1,9 @@
 const transportesOrlando = [
     { nombre: 'Autobús', tarifa: '$2.00 por viaje' },
-    { nombre: 'Tren SunRail', tarifa: '$2.00 - $5.00 según la distancia' },
-    { nombre: 'Tranvía I-RIDE Trolley', tarifa: '$2.00 - $5.00 por día' },
-    { nombre: 'Taxi', tarifa: 'Varía según la distancia y el servicio' },
-    { nombre: 'Uber/Lyft', tarifa: 'Varía según la distancia y la demanda' }
+    { nombre: 'Tren SunRail / Tranvía I-RIDE Trolley', tarifa: '$2.00 - $5.00 según la distancia' },
+    { nombre: 'Rentar un Auto', tarifa: 'Desde $50.00 por día el más económico' },
+    { nombre: 'Taxi / Uber / Lyft', tarifa: 'Varía según la distancia y el servicio' },
+    { nombre: 'Transporte Hoteles Disney', tarifa: 'Gratis' }
 ];
 
 
