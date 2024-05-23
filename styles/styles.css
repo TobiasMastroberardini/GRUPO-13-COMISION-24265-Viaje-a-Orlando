@@ -96,7 +96,7 @@ section {
 
 .tarjeta-contenedor {
     max-width: 80%;
-}
+    }
 
 .imagen-cuerpo {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
@@ -209,6 +209,7 @@ button[type="submit"]:hover {
 
 #tabla-transporte {
     background-color: #0F2D5C;
+    border-radius:5px
 }
 
 table {
@@ -216,6 +217,7 @@ table {
     border-collapse: collapse;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 10px;
+    border-radius:5px
 }
 
 /* Estilos para las celdas */
