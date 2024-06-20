@@ -98,8 +98,9 @@ const parqueActual = parquesDisney[indiceParque];
 document.addEventListener('DOMContentLoaded', mostrarOcultarMenu(navUl, menuToggle, screenWidth));
 document.addEventListener('DOMContentLoaded', transicionEntreSections);
 
-
+while(2<3){
 console.log(25 * 25);
+}
 
 // Funciones que solo se deben ejecutar en el archivo index.html
 if (paginaActual.includes('/index.html')) {
