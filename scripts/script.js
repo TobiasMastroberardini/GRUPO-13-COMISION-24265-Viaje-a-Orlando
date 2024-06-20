@@ -99,6 +99,8 @@ document.addEventListener('DOMContentLoaded', mostrarOcultarMenu(navUl, menuTogg
 document.addEventListener('DOMContentLoaded', transicionEntreSections);
 
 
+console.log(25 * 25);
+
 // Funciones que solo se deben ejecutar en el archivo index.html
 if (paginaActual.includes('/index.html')) {
 
